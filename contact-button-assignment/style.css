@@ -1,0 +1,39 @@
+/*
+MY COLOR PALETTE
+Dark teal - #345665
+Light teal - #75a8a4
+Light blue - #b6d9e0
+Light gray - #dce2dd
+Brown - #7f543d
+*/
+
+body {
+    background-color: #dce2dd;
+    text-align: center;
+}
+
+button {
+    background-color: #345665;
+    color: #dce2dd;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #75a8a4;
+}
+
+h1 {
+    font-family: "Courgette", cursive;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
