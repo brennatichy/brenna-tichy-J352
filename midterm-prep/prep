@@ -1,0 +1,171 @@
+HTML:
+
+Update the <title> tag by changing [Your Name] to your name.
+
+
+
+In the <head> tag, link your CSS file to your HTML file.
+
+<link href="style.css" rel="stylesheet" />
+
+
+
+In the <body> tag, add a <div> tag with an ID of "info". Don't forget to close your tags.
+
+<div id="info">	</div>
+
+
+
+Within that <div> tag with the "info", add an H1 tag with "About" as the content, add a H2 tag with "[Your Name]", add a H3 tag with "[Your Title]".
+
+<div id="info">
+    <h1>About</h1>
+    <h2>Brenna Tichy</h2>
+    <h3>Student Journalist</h3>
+</div>
+
+
+
+Below your H3 tag, add your headshot to the HTML using <img src="">.
+
+<img src="IMG_3140.jpeg">
+
+
+
+Give the image tag a alt attribute.
+
+<img src="IMG_3140.jpeg" alt="Headshot of Brenna Tichy" />
+
+
+
+Give the image tag the ID of "headshot."
+
+<img src="IMG_3140.jpeg" alt="Headshot of Brenna Tichy" id="headshot" />
+
+
+
+Below the image, put a description of you in a <p> tag. Begin your description with "[Your Name] is"
+
+<p>Brenna Tichy is an editorial intern at Baltimore Magazine</p>
+
+
+
+Below that description, add a <div> tag with an ID of contact.
+
+<div id="contact"></div>
+
+
+
+Put "Contact me" in that <div> tag, link it to your email address.
+
+<div id="contact">
+    <a href="mailto:btichy@terpmail.umd.edu">Contact me</a>
+</div>
+
+
+
+Below the entire "info" <div> tag, add a <div> tag with an ID of "footer". In that tag put: Copyright 2026 [Your Name].
+
+<div id="footer">
+    Copyright 2026 Brenna Tichy
+</div>
+
+
+
+
+
+CSS:
+
+Make your headshot 300px wide. (Use the element's ID as the selector.)
+
+#headshot {
+    width: 300px;
+}
+
+
+
+Make the font of everything in the body of your HTML the following: "Arial,   sans-serif".
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+Make the "Contact Me" font bold, black, and 20px big. (You will need to use a selector that targets the "a" tag after the "contact" div. Make it turn red on hover. (Helpful link: CSS Selectors Links to an external site.)
+
+#contact a {
+    font-weight: bold;
+    color: black;
+    font-size:20px;
+}
+
+
+#contact a:hover {
+    color:red;
+}
+
+
+
+Make your "info" div 500px wide. Center your "info" div by adding the following declaration: margin:auto
+
+#info {
+    width:500px;
+    margin:auto;
+}
+
+
+
+Float your headshot to the left of your description and "Contact Me" link.
+
+#headshot {
+    width: 300px;
+    float:left;
+    margin-right:10px;
+}
+
+
+Adjust the margins on your elements to create space between your image and text.
+
+#headshot {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+Use media queries to make it so your "info" is 100% and your headshot is stacked above your description on any device under 576px.
+
+At Top:
+@media screen {
+    #headshot {
+        width: 100%;
+        float: none;
+    }
+}
+
+At Bottom:
+@media (min-width: 576px) {
+    #headshot {
+        width: 300px;
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+
+
+Fix your footer at the bottom of your page using the "position" and "bottom" property. It will also need a background color, padding, and width.
+    
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: lightblue;
+    width: 100%;
+    padding: 10px;
+}
+
+
+ID use #
