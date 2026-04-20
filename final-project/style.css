@@ -1,0 +1,59 @@
+/*
+MY COLOR PALETTE
+Yellow - #e1c859
+Red - 
+Orange - 
+Dark gray - 
+Light red/gray - 
+*/
+
+@media screen {
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.1px;
+        font-size: 25px;
+    }
+    .caption {
+        color: red;
+    }
+
+    .credit {
+        color: brown;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 65px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 90px;
+    }
+}
