@@ -1,10 +1,6 @@
 /*
 MY COLOR PALETTE
-Yellow - #e1c859
-Red - 
-Orange - 
-Dark gray - 
-Light red/gray - 
+
 */
 
 @media screen {
@@ -13,6 +9,9 @@ Light red/gray -
     }
     img {
         width: 100%;
+        height: 750px;
+        object-fit: cover;
+        object-position: bottom;
     }
 
     h1 {
@@ -39,13 +38,16 @@ Light red/gray -
         padding: 15px;
     }
     .caption {
-        color: red;
+        color: black;
         font-family: "Roboto", sans-serif;
+        font-size: small;
     }
 
     .credit {
-        color: brown;
+        color: #dca15c;
         font-family: "Roboto", sans-serif;
+        font-size: small;
+        text-transform: uppercase;
     }
     h3 {
         font-family: "Roboto", sans-serif;
@@ -74,13 +76,16 @@ Light red/gray -
         padding-right: 50px;
     }
     .caption2 {
-        color: red;
+        color: black;
         font-family: "Roboto", sans-serif;
+        font-size: small;
     }
 
     .credit2 {
-        color: brown;
+        color: #dca15c;
         font-family: "Roboto", sans-serif;
+        font-size: small;
+        text-transform: uppercase;
     }
     h6 {
         font-family: "Merriweather", serif;
@@ -91,13 +96,16 @@ Light red/gray -
         padding-bottom: 10px;
     }
     .caption3 {
-        color: red;
+        color: black;
         font-family: "Roboto", sans-serif;
+        font-size: small;
     }
 
     .credit3 {
-        color: brown;
+        color: #dca15c;
         font-family: "Roboto", sans-serif;
+        font-size: small;
+        text-transform: uppercase;
     }
     #house {
         padding-left: 50px;
@@ -105,6 +113,71 @@ Light red/gray -
     }
     ol {
         font-family: "Roboto", sans-serif;
+    }
+    #pullquote1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 150px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #dca15c;
+    }
+
+    #quote {
+        border-bottom: 6px double #dca15c;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #pull {
+        border-bottom: 6px double #dca15c;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    #pullquote2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 150px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #dca15c;
+    }
+
+    #quote2 {
+        border-bottom: 6px double #dca15c;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #pull2 {
+        border-bottom: 6px double #dca15c;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #slider {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #arial {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .caption4 {
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-size: small;
+    }
+
+    .credit4 {
+        color: #dca15c;
+        font-family: "Roboto", sans-serif;
+        font-size: small;
+        text-transform: uppercase;
+    }
+    #graph {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
