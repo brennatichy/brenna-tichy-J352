@@ -10,11 +10,14 @@ tan = #f1eae2
     }
     img {
         width: 100%;
-        height: 750px;
+        height: 600px;
         object-fit: cover;
-        object-position: bottom;
+        object-position: 50% 77%;
     }
 
+    .fullwidth {
+        padding: 0px;
+    }
     h1 {
         font-family: "Merriweather", serif;
         font-weight: 700;
@@ -96,7 +99,6 @@ tan = #f1eae2
         text-transform: uppercase;
         font-weight: bold;
         font-size: 30px;
-        margin-left: 150px;
         padding-bottom: 10px;
         padding-top: 20px;
     }
@@ -124,7 +126,6 @@ tan = #f1eae2
         font-family: "Roboto", sans-serif;
         font-weight: bold;
         font-size: 40px;
-        margin-left: 150px;
         text-align: center;
         color: #dca15c;
     }
@@ -146,7 +147,6 @@ tan = #f1eae2
         font-family: "Roboto", sans-serif;
         font-weight: bold;
         font-size: 40px;
-        margin-left: 150px;
         text-align: center;
         color: #dca15c;
     }
@@ -166,9 +166,6 @@ tan = #f1eae2
     #slider {
         padding-left: 50px;
         padding-right: 50px;
-    }
-    #arial {
-        padding-left: 50px;
     }
     .caption4 {
         color: black;
@@ -206,8 +203,11 @@ tan = #f1eae2
         text-transform: uppercase;
         font-weight: bold;
     }
+    #arial {
+        padding-left: 0px;
+    }
     #arial2 {
-        padding-right: 50px;
+        padding-right: 0px;
     }
 }
 
@@ -225,6 +225,12 @@ tan = #f1eae2
     }
     ol {
         padding-left: 100px;
+    }
+    #arial {
+        padding-left: 50px;
+    }
+    #arial2 {
+        padding-right: 50px;
     }
 }
 
